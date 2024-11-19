@@ -3,6 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
 	    // Replace this comment with your code
             String Cheer = args[0];
+            Cheer=Cheer.toUpperCase();
             int Times=Integer.parseInt(args[1]);
             int length= Cheer.length();
             int cnt=0;
