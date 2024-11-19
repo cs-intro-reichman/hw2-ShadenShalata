@@ -3,6 +3,7 @@ public class Collatz {
 	public static void main(String args[]) {
 	    // Replace this comment with your code
 		int seed=Integer.parseInt(args[0]);
+		int saveseed=seed;
 		String Ch = args[1];
 		int firstseq=0;
 		int startofseq =0;
@@ -48,10 +49,12 @@ public class Collatz {
 
 				
 			}
+			System.out.println("Every one of the first "+saveseed+" hailstone sequences reached 1.");
 		}
 		else
 		{
 			System.out.println("Every one of the first "+seed+" hailstone sequences reached 1.");
 		}
 	}
+	
 }

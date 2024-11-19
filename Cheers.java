@@ -13,7 +13,7 @@ public class Cheers {
                 if(check=='A'||check=='E'||check=='F'||
                 check=='H'||check=='I'||check=='L'||
                 check=='M'||check=='N'||check=='O'||
-                check=='R')
+                check=='R'||check=='S'||check=='X')
                 {
                         System.out.println("Give me an "+check+": "+check+"!");
                 }
